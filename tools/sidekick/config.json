@@ -23,6 +23,21 @@
       ],
       "url": "/tools/sidekick/library.html",
       "includePaths": ["**.docx**"]
+    },
+  {
+      "id": "generate-variations",
+      "title": "Generate Variations",
+      "url": "https://experience.adobe.com/aem/generate-variations",
+      "passConfig": true,
+      "environments": ["preview","live", "edit"],
+      "includePaths": ["**.docx**"]
+    },
+   {
+      "id": "psi",
+      "title": "PageSpeed Insights",
+      "url": "/tools/sidekick/psi.html",
+      "passReferrer": true,
+      "environments": ["preview", "live", "prod"]
     }
 ]
 }
